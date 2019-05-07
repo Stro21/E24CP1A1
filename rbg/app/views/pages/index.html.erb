@@ -1,0 +1,16 @@
+<input type="text" value="75" class="dial" id="red">
+
+<input type="text" value="75" class="dial" id="green">
+
+<input type="text" value="75" class="dial" id="blue">
+<br><br>
+<script>
+    $(function() {
+        $(".dial").knob();
+    });
+</script>
+
+<svg width="1000" height="310">
+  <%# <rect width="800" height="300" style="fill:rgb(0,0,255)" /> %>
+  <rect width="800" height="300" id="rectangle" />
+</svg>
